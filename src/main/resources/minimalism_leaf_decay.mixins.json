@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "phoupraw.mcmod.minimalism_leaf_decay.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "minecraft.MAbstractBlockState"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+  ],
+  "plugin": "phoupraw.mcmod.minimalism_leaf_decay.mixins.MinimalismLeafDecayMixinConfigPlugin",
+  "priority": 10000
+}

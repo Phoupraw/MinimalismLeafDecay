@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "minimalism_leaf_decay",
+  "version": "${version}",
+  "name": "MinimalismLeafDecay",
+  "description": "使树叶立刻腐烂",
+  "authors": ["Phoupraw"],
+  "contact": {
+    "homepage": "https://www.mcmod.cn/class/minimalism_leaf_decay.html",
+    "sources": "https://github.com/Phoupraw/MinimalismLeafDecay",
+    "issues": "https://github.com/Phoupraw/MinimalismLeafDecay/issues"
+  },
+  "entrypoints": {
+    "main": ["phoupraw.mcmod.minimalism_leaf_decay.MinimalismLeafDecay"],
+    "client": ["phoupraw.mcmod.minimalism_leaf_decay.MinimalismLeafDecayClient"],
+    "fabric-datagen": ["phoupraw.mcmod.minimalism_leaf_decay.datagen.MinimalismLeafDecayDataGen"],
+    "modmenu": ["phoupraw.mcmod.minimalism_leaf_decay.config.MinimalismLeafDecayModMenuApi"]
+  },
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "modmenu": "*"
+  },
+  "mixins": ["minimalism_leaf_decay.mixins.json"],
+  "icon": "assets/minimalism_leaf_decay/icon.png",
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.modrinth": "https://modrinth.com/project/minimalism_leaf_decay",
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/minimalism_leaf_decay"
+      }
+    }
+  },
+  "license": "MPL-2.0",
+  "accessWidener": "minimalism_leaf_decay.accessWidener"
+}
