@@ -18,7 +18,7 @@ final class EnglishGen extends FabricLanguageProvider {
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder b) {
         String modName = "Minimalism Leaf Decay";
         b.add(MinimalismLeafDecay.NAME_KEY, modName);
-        String summary = "Make leaves immediately decay";
+        String summary = "Make leaves immediately decay!";
         b.add("modmenu.summaryTranslation." + ID, summary);
         b.add("modmenu.descriptionTranslation." + ID, """
           %s

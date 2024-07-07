@@ -18,7 +18,7 @@ final class ChineseGen extends FabricLanguageProvider {
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder b) {
         String modName = "极简快速落叶";
         b.add(MinimalismLeafDecay.NAME_KEY, modName);
-        String summary = "使树叶立刻腐烂";
+        String summary = "使树叶立刻腐烂！";
         b.add("modmenu.summaryTranslation." + ID, summary);
         b.add("modmenu.descriptionTranslation." + ID, """
           %s
