@@ -6,7 +6,7 @@
   "description": "使树叶立刻腐烂",
   "authors": ["Phoupraw"],
   "contact": {
-    "homepage": "https://www.mcmod.cn/class/minimalism_leaf_decay.html",
+    "homepage": "https://www.mcmod.cn/class/15429.html",
     "sources": "https://github.com/Phoupraw/MinimalismLeafDecay",
     "issues": "https://github.com/Phoupraw/MinimalismLeafDecay/issues"
   },
@@ -18,10 +18,9 @@
   },
   "environment": "*",
   "depends": {
-    "fabricloader": ">=0.15.0",
-    "fabric-api": "*"
+    "fabricloader": ">=0.15.0"
   },
-  "recommends": {
+  "suggests": {
     "modmenu": "*"
   },
   "mixins": ["minimalism_leaf_decay.mixins.json"],
@@ -29,8 +28,8 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.modrinth": "https://modrinth.com/project/minimalism_leaf_decay",
-        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/minimalism_leaf_decay"
+        "modmenu.modrinth": "https://modrinth.com/mod/minimalism_leaf_decay",
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/minimalism-leaf-decay"
       }
     }
   },

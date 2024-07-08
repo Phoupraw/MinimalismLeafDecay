@@ -23,8 +23,9 @@ final class EnglishGen extends FabricLanguageProvider {
         b.add("modmenu.descriptionTranslation." + ID, """
           %s
           
-          Add a block tag, %s, where blocks will execute random tick after executing schedule tick, defaultly contains all leaves.
-          """.formatted(summary, MLDBlockTags.SCHEDULE_RANDOM.id()));
+          Blocks in block tag %s and not in %s will execute random tick after executing schedule tick, defaultly contains all leaves.
+          """.formatted(summary, MLDBlockTags.SCHEDULE_RANDOM.id(), MLDBlockTags.SCHEDULE_RANDOM_BLACKLIST.id()));
         b.add(MLDBlockTags.SCHEDULE_RANDOM, "Execute random tick after executing schedule tick");
+        b.add(MLDBlockTags.SCHEDULE_RANDOM_BLACKLIST, "Blacklist of Execute random tick after executing schedule tick");
     }
 }

@@ -23,8 +23,9 @@ final class ChineseGen extends FabricLanguageProvider {
         b.add("modmenu.descriptionTranslation." + ID, """
           %s
           
-          添加了一个方块标签%s，其中的方块会在执行计划刻后执行随机刻，默认包含所有树叶。
-          """.formatted(summary, MLDBlockTags.SCHEDULE_RANDOM.id()));
+          在方块标签%s中且不在%s中的方块会在执行计划刻后执行随机刻，默认包含所有树叶。
+          """.formatted(summary, MLDBlockTags.SCHEDULE_RANDOM.id(), MLDBlockTags.SCHEDULE_RANDOM_BLACKLIST.id()));
         b.add(MLDBlockTags.SCHEDULE_RANDOM, "执行计划刻后执行随机刻");
+        b.add(MLDBlockTags.SCHEDULE_RANDOM_BLACKLIST, "执行计划刻后执行随机刻黑名单");
     }
 }

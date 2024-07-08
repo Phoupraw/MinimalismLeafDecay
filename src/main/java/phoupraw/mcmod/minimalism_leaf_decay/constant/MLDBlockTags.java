@@ -7,6 +7,7 @@ import net.minecraft.util.Identifier;
 
 public sealed interface MLDBlockTags permits MLDConstants {
     TagKey<Block> SCHEDULE_RANDOM = of("schedule_random");
+    TagKey<Block> SCHEDULE_RANDOM_BLACKLIST = of("schedule_random_blacklist");
     private static TagKey<Block> of(Identifier id) {
         return TagKey.of(RegistryKeys.BLOCK, id);
     }
