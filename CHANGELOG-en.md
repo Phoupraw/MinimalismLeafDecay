@@ -12,3 +12,6 @@
 ## Fix
 - Remove unnecessary dependency.
 - Revise links.
+# 0.1.2
+## Fix
+- Leaves that don't neighbor other leaves won't fast decay.

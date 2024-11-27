@@ -2,6 +2,7 @@ package phoupraw.mcmod.minimalism_leaf_decay.mixin.minecraft;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
@@ -19,10 +20,15 @@ abstract class MAbstractBlockState {
     public abstract void randomTick(ServerWorld world, BlockPos pos, Random random);
     @Shadow
     public abstract boolean isIn(TagKey<Block> tag);
+    @Shadow
+    public abstract Block getBlock();
     @Inject(method = "scheduledTick", at = @At("RETURN"))
     private void scheduleRandom(ServerWorld world, BlockPos pos, Random random, CallbackInfo ci) {
         if (isIn(MLDBlockTags.SCHEDULE_RANDOM)) {
-            randomTick(world, pos, random);
+            BlockState newState = world.getBlockState(pos);
+            if (newState.isOf(getBlock())) {
+                newState.randomTick(world, pos, random);
+            }
         }
     }
 }

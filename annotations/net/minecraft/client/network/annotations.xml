@@ -1,5 +1,0 @@
-<root>
-    <item name='net.minecraft.client.network.ClientPlayerEntity input'>
-        <annotation name='org.jetbrains.annotations.Nullable'/>
-    </item>
-</root>
