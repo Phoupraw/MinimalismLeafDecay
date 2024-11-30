@@ -15,3 +15,7 @@
 # 0.1.2
 ## Fix
 - Leaves that don't neighbor other leaves won't fast decay.
+# 0.2.0
+## New
+- Run command `/datapack disable "minimalism_leaf_decay:tags"` to disable this mod.
+  - Run command `/datapack enable "minimalism_leaf_decay:tags"` to enable this mod.

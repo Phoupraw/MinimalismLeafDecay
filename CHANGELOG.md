@@ -15,7 +15,7 @@
 # 0.1.2
 ## 修复
 - 不与其他树叶相邻的树叶不会快速腐烂。
-#
+# 0.2.0
 ## 新增
 - 执行指令`/datapack disable "minimalism_leaf_decay:tags"`可以直接关闭此模组。
   - 执行指令`/datapack enable "minimalism_leaf_decay:tags"`可以再次开启此模组。
