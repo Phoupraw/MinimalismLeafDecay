@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.registry.RegistryWrapper;
 import phoupraw.mcmod.minimalism_leaf_decay.MinimalismLeafDecay;
 import phoupraw.mcmod.minimalism_leaf_decay.constant.MLDBlockTags;
+import phoupraw.mcmod.minimalism_leaf_decay.constant.MLDIDs;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -27,5 +28,6 @@ final class ChineseGen extends FabricLanguageProvider {
           """.formatted(summary, MLDBlockTags.SCHEDULE_RANDOM.id(), MLDBlockTags.SCHEDULE_RANDOM_BLACKLIST.id()));
         b.add(MLDBlockTags.SCHEDULE_RANDOM, "执行计划刻后执行随机刻");
         b.add(MLDBlockTags.SCHEDULE_RANDOM_BLACKLIST, "执行计划刻后执行随机刻黑名单");
+        b.add(MLDIDs.TAGS.toTranslationKey("datapack"), "禁用此数据包以禁用" + modName);
     }
 }

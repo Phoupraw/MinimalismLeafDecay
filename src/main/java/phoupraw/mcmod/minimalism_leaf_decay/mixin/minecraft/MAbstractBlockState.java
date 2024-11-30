@@ -17,8 +17,6 @@ import phoupraw.mcmod.minimalism_leaf_decay.constant.MLDBlockTags;
 @Mixin(AbstractBlock.AbstractBlockState.class)
 abstract class MAbstractBlockState {
     @Shadow
-    public abstract void randomTick(ServerWorld world, BlockPos pos, Random random);
-    @Shadow
     public abstract boolean isIn(TagKey<Block> tag);
     @Shadow
     public abstract Block getBlock();

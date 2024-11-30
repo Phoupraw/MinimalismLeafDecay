@@ -5,6 +5,7 @@ import phoupraw.mcmod.minimalism_leaf_decay.MinimalismLeafDecay;
 
 public sealed interface MLDIDs permits MLDConstants {
     Identifier MINIMALISM_LEAF_DECAY = of(MinimalismLeafDecay.ID);
+    Identifier TAGS = of("tags");
     static Identifier of(String path) {
         return Identifier.of(MinimalismLeafDecay.ID, path);
     }

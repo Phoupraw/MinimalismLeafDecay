@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.registry.RegistryWrapper;
 import phoupraw.mcmod.minimalism_leaf_decay.MinimalismLeafDecay;
 import phoupraw.mcmod.minimalism_leaf_decay.constant.MLDBlockTags;
+import phoupraw.mcmod.minimalism_leaf_decay.constant.MLDIDs;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -27,5 +28,6 @@ final class EnglishGen extends FabricLanguageProvider {
           """.formatted(summary, MLDBlockTags.SCHEDULE_RANDOM.id(), MLDBlockTags.SCHEDULE_RANDOM_BLACKLIST.id()));
         b.add(MLDBlockTags.SCHEDULE_RANDOM, "Execute random tick after executing schedule tick");
         b.add(MLDBlockTags.SCHEDULE_RANDOM_BLACKLIST, "Blacklist of Execute random tick after executing schedule tick");
+        b.add(MLDIDs.TAGS.toTranslationKey("datapack"), "Disable this datapack to disable " + modName);
     }
 }
