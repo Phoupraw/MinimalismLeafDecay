@@ -19,3 +19,6 @@
 ## New
 - Run command `/datapack disable "minimalism_leaf_decay:tags"` to disable this mod.
   - Run command `/datapack enable "minimalism_leaf_decay:tags"` to enable this mod.
+# 0.2.1
+## Fix
+- Blacklist doesn't work

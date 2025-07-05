@@ -1,0 +1,8 @@
+{
+  "datapack.minimalism_leaf_decay.tags": "禁用此数据包以禁用极简快速落叶",
+  "modmenu.descriptionTranslation.minimalism_leaf_decay": "使树叶立刻腐烂！\n\n在方块标签minimalism_leaf_decay:schedule_random中且不在minimalism_leaf_decay:schedule_random_blacklist中的方块会在执行计划刻后执行随机刻，默认包含所有树叶。\n",
+  "modmenu.nameTranslation.minimalism_leaf_decay": "极简快速落叶",
+  "modmenu.summaryTranslation.minimalism_leaf_decay": "使树叶立刻腐烂！",
+  "tag.block.minimalism_leaf_decay.schedule_random": "执行计划刻后执行随机刻",
+  "tag.block.minimalism_leaf_decay.schedule_random_blacklist": "执行计划刻后执行随机刻黑名单"
+}

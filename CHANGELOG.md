@@ -19,3 +19,6 @@
 ## 新增
 - 执行指令`/datapack disable "minimalism_leaf_decay:tags"`可以直接关闭此模组。
   - 执行指令`/datapack enable "minimalism_leaf_decay:tags"`可以再次开启此模组。
+# 0.2.1
+## 修复
+- 黑名单无效

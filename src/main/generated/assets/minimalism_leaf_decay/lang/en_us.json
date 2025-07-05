@@ -1,0 +1,8 @@
+{
+  "datapack.minimalism_leaf_decay.tags": "Disable this datapack to disable Minimalism Leaf Decay",
+  "modmenu.descriptionTranslation.minimalism_leaf_decay": "Make leaves immediately decay!\n\nBlocks in block tag minimalism_leaf_decay:schedule_random and not in minimalism_leaf_decay:schedule_random_blacklist will execute random tick after executing schedule tick, defaultly contains all leaves.\n",
+  "modmenu.nameTranslation.minimalism_leaf_decay": "Minimalism Leaf Decay",
+  "modmenu.summaryTranslation.minimalism_leaf_decay": "Make leaves immediately decay!",
+  "tag.block.minimalism_leaf_decay.schedule_random": "Execute random tick after executing schedule tick",
+  "tag.block.minimalism_leaf_decay.schedule_random_blacklist": "Blacklist of Execute random tick after executing schedule tick"
+}

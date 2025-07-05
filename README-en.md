@@ -1,7 +1,7 @@
 # Minimalism Leaf Decay ![Icon](./src/main/resources/assets/minimalism_leaf_decay/icon.png)
 Make leaves immediately decay!
 
-[MCMOD](https://www.mcmod.cn/class/14151.html)
+[MCMOD](https://www.mcmod.cn/class/15429.html)
 [![Modrinth](https://img.shields.io/modrinth/dt/minimalism_leaf_decay?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c)](https://modrinth.com/mod/minimalism_leaf_decay)
 [![Curseforge](https://cf.way2muchnoise.eu/1058998.svg)](https://www.curseforge.com/minecraft/mc-mods/minimalism-leaf-decay)
 ## Profile
